@@ -6,9 +6,9 @@ import reportWebVitals from './reportWebVitals';
 
 
 export {styles};
-export * from './stories/Button/Button'
-export * from './stories/Header/Header'
-export * from './stories/Page/Page'
+export * from './stories/Button'
+export * from './stories/Header'
+export * from './stories/Page'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
