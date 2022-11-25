@@ -1,6 +1,16 @@
 {
   "name": "lib-test",
   "version": "0.1.0",
+  "babel": {
+    "presets": [
+      [
+        "react-app",
+        {
+          "absoluteRuntime": false
+        }
+      ]
+    ]
+  },
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
