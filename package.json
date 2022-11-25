@@ -17,7 +17,6 @@
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
-    "auto": "^10.37.6",
     "cross-env": "^7.0.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -71,6 +70,7 @@
     "@storybook/preset-create-react-app": "^4.1.2",
     "@storybook/react": "^6.5.13",
     "@storybook/testing-library": "^0.0.13",
+    "auto": "^10.37.6",
     "babel-plugin-named-exports-order": "^0.0.2",
     "prop-types": "^15.8.1",
     "webpack": "^5.75.0"
@@ -89,5 +89,11 @@
   "bugs": {
     "url": "https://github.com/dsanchezvalle/lib-test/issues"
   },
-  "homepage": "https://github.com/dsanchezvalle/lib-test#readme"
+  "homepage": "https://github.com/dsanchezvalle/lib-test#readme",
+  "auto": {
+    "plugins": [
+      "npm"
+    ],
+    "onlyPublishWithReleaseLabel": true
+  }
 }
