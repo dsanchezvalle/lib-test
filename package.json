@@ -1,5 +1,5 @@
 {
-  "name": "lib-test",
+  "name": "@dsanchezvalle/lib-test",
   "version": "0.1.0",
   "babel": {
     "presets": [
@@ -73,5 +73,20 @@
     "babel-plugin-named-exports-order": "^0.0.2",
     "prop-types": "^15.8.1",
     "webpack": "^5.75.0"
-  }
+  },
+  "description": "Storybook-based components library",
+  "main": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dsanchezvalle/lib-test.git"
+  },
+  "keywords": [
+    "storybook"
+  ],
+  "author": "David Sanchez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dsanchezvalle/lib-test/issues"
+  },
+  "homepage": "https://github.com/dsanchezvalle/lib-test#readme"
 }
